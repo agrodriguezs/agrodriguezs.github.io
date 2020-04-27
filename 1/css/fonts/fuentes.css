@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'greatvibes';
+    src: url('fonts/greatvibes.woff2') format('woff2'),
+         url('fonts/greatvibes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/lato.woff2') format('woff2'),
+         url('fonts/lato.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'metropolis';
+    src: url('fonts/metropolis.woff2') format('woff2'),
+         url('fonts/metropolis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/montserrat.woff2') format('woff2'),
+         url('fonts/montserrat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/opensans.woff2') format('woff2'),
+         url('fonts/opensans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('fonts/oswald.woff2') format('woff2'),
+         url('fonts/oswald.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
