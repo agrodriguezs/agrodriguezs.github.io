@@ -68,7 +68,7 @@ a,
 #formacion .btn-link:active,
 #formacion .btn-link:focus,
 .card-header:hover {
-    background-color: #E6E0F8;
+    background-color: #FBF2EF;
     color: #848484;
     text-decoration: none;
 
@@ -184,5 +184,6 @@ ul {
   color:#fff;
 }
 .footer{
-/*  background-color: #0B3B39;*/
+    font-family: 'oswald';
+    font-size: 0.9em;
 }
