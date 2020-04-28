@@ -59,7 +59,9 @@ a,
 }
 #proyectos {}
 
-#proyectos a:hover, #formacion a:hover, #experiencia a:hover, #habilidades a:hover,
+#proyectos a:hover, #formacion a:hover, #experiencia a:hover, #habilidades a:hover{
+    text-decoration: underline;
+}
 #formacion li:hover,
 #proyectos li:hover,
 #formacion .btn-link:hover,
