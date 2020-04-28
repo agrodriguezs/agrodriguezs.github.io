@@ -1,62 +1,23 @@
 
-@font-face {
-    font-family: 'greatvibes';
-    src: url('fonts/greatvibes.woff2') format('woff2'),
-         url('fonts/greatvibes.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'lato';
-    src: url('fonts/lato.woff2') format('woff2'),
-         url('fonts/lato.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'metropolis';
-    src: url('fonts/metropolis.woff2') format('woff2'),
-         url('fonts/metropolis.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'montserrat';
-    src: url('fonts/montserrat.woff2') format('woff2'),
-         url('fonts/montserrat.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'opensans';
-    src: url('fonts/opensans.woff2') format('woff2'),
-         url('fonts/opensans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswald';
-    src: url('fonts/oswald.woff2') format('woff2'),
-         url('fonts/oswald.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
-  margin: 0px;
-  padding: 0px;
-
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-  font-family: 'metropolis';
-  color: #220A29;
-  font-size: 14px;
+    font-family: 'metropolis';
+}
+.container {
+    padding: 0px;
 }
 .badge-primary {
-    background-color: #afacac;
-    color: #220a29;
-}
+    background-color: #F2E0F7;
+    border: 1px solid  gray;
+    color: #848484;
+  }
+  .habilidades {
+    margin: 10px 0px 10px 0px;
+  }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'oswald';
     font-weight: bold;
@@ -68,22 +29,82 @@ h5 {
     font-size: 1.1em;
 }
 img.profile {
-  width: 150px;
-  margin-right: 20px;
-
+    width: 150px;
+    margin-right: 20px;
 }
 
 section {
-  padding: 5px ;
-  color: #848484;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: white;
-  width: 360px;
+    padding: 5px ;
+    color: #848484;
+    display: block;
+    background-color: white;
+    width: 360px;
 }
-.container {
-  background-color: pink;
-  padding: 0px;
-  margin-top:
+a, a:hover {
+    color: #848484;
+    dis
+    font-style: normal;
+    text-decoration: none;
+}
+ul {
+    margin: 10px;
+}
+a,
+#proyectos li,
+#formacion li,{
+    margin-bottom: 2px;
+}
+
+a:hover,
+#formacion li:hover,
+#proyectos li:hover,
+#formacion .btn-link:hover,
+#formacion .btn-link:active,
+#formacion .btn-link:focus,
+.card-header:hover {
+    background-color: #E6E0F8;
+    color: #848484;
+    text-decoration: none;
+
+}
+#formacion button {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+#formacion li {
+    font-size: 0.9em;
+}
+#formacion li::before {
+    content: '-';
+}
+#habilidades li,
+#habilidades a{
+    display: block;
+}
+ul {
+    list-style-type:  none;
+}
+.card-header {
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-bottom: 0px;
+}
+.card-body {
+    padding: 0px;
+}
+.btn-link {
+    border: 0px;
+    text-decoration: none;
+    color: #848484;
+    font-family: 'lato';
+
+}
+.btn-link:hover {
+    text-decoration: none;
+
+}
+.anho {
+  font-size: 0.6em;
 }
