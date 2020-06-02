@@ -50,12 +50,15 @@ a, a:hover {
 ul {
     margin: 10px;
 }
+
 a,
 #proyectos li,
 #formacion li,{
     margin-bottom: 2px;
 }
-#proyectos {}
+#proyectos li:before {
+   
+}
 
 
 #formacion .btn-link:hover,
